@@ -192,7 +192,7 @@ p {
 }
 
 .j-button {
-    background: #f0efef;
+     background: #aeadad;
     color: rgb(9, 9, 9);
     border: none;
     padding: 1rem 2.5rem;
@@ -200,7 +200,7 @@ p {
 }
 
 .j-button:hover {
-    transform: translateY(-3px);
+    background: #ddd;
 }
 
 /* 联系表单 */
