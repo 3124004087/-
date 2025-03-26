@@ -1,0 +1,245 @@
+/* 基础样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+
+}
+
+.line {
+    width: 5%;
+    height: 2px;
+    background-color: #ff6b6b;
+    margin: auto;
+    margin-bottom: 2rem;
+
+}
+
+/* 共享背景容器 */
+.hero-section {
+    position: relative;
+    min-height: 80vh;
+    overflow: hidden;
+    background:
+        linear-gradient(45deg,
+            rgba(45, 45, 45, 0.8),
+            rgba(30, 30, 30, 0.9)), url(bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* 导航栏样式 */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5%;
+    /* 固定导航栏 */
+    position: fixed;
+    top: 0;
+    width: 90%;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #abaaaa;
+    cursor: pointer;
+}
+
+.logo:hover {
+    color: #cecdcd;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-links li a {
+    cursor: pointer;
+    color: #abaaaa;
+}
+
+.nav-links li a:hover {
+    color: #cecdcd;
+}
+
+/* 主标题区 */
+.hero {
+    margin-top: 10rem;
+    text-align: center;
+    padding: 6rem 5%;
+
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: #f3eeee;
+}
+
+.subtitle {
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+
+.cta-button {
+    background: #fe5555;
+    color: white;
+    border: none;
+    padding: 1rem 2.5rem;
+    border-radius: 25px;
+
+
+}
+
+.cta-button:hover {
+    background: #f83939;
+}
+
+/* 通用样式 */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+/* 关于我们 */
+.about {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.camera-img {
+    display: block;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* 服务项目 */
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.service-item {
+    text-align: center;
+    padding: 20px;
+}
+
+.icon {
+
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+h3 {
+
+    margin: 10px 0;
+}
+
+p {
+    color: #666;
+    margin: 0;
+    font-size: small;
+}
+
+/* 服务展示区 */
+.services {
+    margin-top: 4rem;
+}
+
+.dark-bg {
+    font-size: 0;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 0;
+}
+
+.grid-item {
+
+    padding: 0;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.x {
+    background: #2d2d2d;
+    margin-top: 0;
+    text-align: center;
+    padding: 4rem 5%;
+}
+
+.x h1 {
+    color: #f3eeee;
+    padding-bottom: 1rem;
+}
+
+.j-button {
+    background: #f0efef;
+    color: rgb(9, 9, 9);
+    border: none;
+    padding: 1rem 2.5rem;
+    border-radius: 25px;
+}
+
+.j-button:hover {
+    transform: translateY(-3px);
+}
+
+/* 联系表单 */
+.contact-form {
+
+    padding: 4rem 5%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.p {
+    margin-bottom: 1.5rem;
+}
+
+
+.contact-info {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+/* 页脚 */
+.footer {
+    text-align: center;
+    padding: 2rem;
+    background: #f8f9fa;
+    color: #666;
+}
